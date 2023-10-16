@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Água</title>
+    <link rel="stylesheet" type="text/css" href="_css/principal.css">
+</head>
+<body>  
+<div id="interface">
+
+     <header id="cabecalho">
+        <hgroup>
+        <h1>Água</h1>
+        <h2>Questionário</h2>
+        </hgroup>
+
+        <img id="icone" src="_imagens/gota-de-agua.png"/>
+
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li><a href="principal.html">Economia</a></li>
+                <li><a href="aguanomundo.html">No mundo</a></li>
+                <li><a href="ciclo.html">Ciclo da água</a></li>
+                <li><a href="poluicao.html">Poluição da água</a></li>
+                <li><a href="questionario.html">Questionário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <form id="quiz-form">
+            <ol class="question-list">
+                <li class="question">
+                    <p class="question-text">1. O que é evaporação da água?</p>
+                    <div class="horizontal-options">
+                        <label class="option">
+                            <input type="radio" name="q1" value="a"> a) Quando a água vira gelo.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="b"> b) Quando a água se transforma em vapor.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="c"> c) Quando a água cai do céu.
+                        </label>
+                    </div>
+                </li>
+                <li class="question">
+                    <p class="question-text">2. Por que a água é importante para nós?</p>
+                    <div class="horizontal-options">
+                        <label class="option">
+                            <input type="radio" name="q2" value="a"> a) Para brincar.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="b"> b) Para fazer comida.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="c"> c) Para viver.
+                        </label>
+                    </div>
+                </li>
+                <li class="question">
+                    <p class="question-text">3. O que é transpiração das plantas?</p>
+                    <div class="horizontal-options">
+                        <label class="option">
+                            <input type="radio" name="q3" value="a"> a) Quando as plantas bebem água.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="b"> b) Quando as plantas soltam água para o céu.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="c"> c) Quando as plantas ficam secas.
+                        </label>
+                    </div>
+                </li>
+                <li class="question">
+                    <p class="question-text">4. Por que é importante não sujar a água dos lagos?</p>
+                    <div class="horizontal-options">
+                        <label class="option">
+                            <input type="radio" name="q4" value="a"> a) Porque é divertido sujar a água.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q4" value="b"> b) Porque sujar a água faz bem para os peixinhos.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q4" value="c"> c) Porque queremos manter os lagos limpos e seguros.
+                        </label>
+                    </div>
+                </li>
+                <li class="question">
+                    <p class="question-text">5. Quais são as duas categorias de poluição da água?</p>
+                    <div class="horizontal-options">
+                        <label class="option">
+                            <input type="radio" name="q5" value="a"> a) Sujeira natural e sujeira feita pelas pessoas.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="b"> b) Sujeira na cidade e sujeira no campo.
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q5" value="c"> c) Sujeira no inverno e sujeira no verão.
+                        </label>
+                    </div>
+                </li>
+            </ol>
+            <input type="submit" value="Enviar Respostas">
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+    
+    <footer id="rodape">
+        <p>Copyright &copy; 2013 - by Marlon Rodrigo Leszak <br>
+        <a href="https://www.facebook.com/marlonrodrigo.leszak/" target="_blank">Facebook</a> | <a href="https://twitter.com/MarlonLesza" target="_blank">Twitter</a></p>
+    </footer>
+</div>
+</body>
+</html>
