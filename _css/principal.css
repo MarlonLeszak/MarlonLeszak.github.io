@@ -1,0 +1,64 @@
+@charset "UTF-8";@import "https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap";@font-face{font-family:'FonteLogo';src:url(../_fonts/bubblegum-sans-regular.otf)}body{background-color:#fff}div#interface{width:1000px;background-color:#ffffff3d;margin:10px auto 0;box-shadow:0 0 10px rgba(0,0,0,.5);padding:10px}p{text-align:justify;text-indent:55px}a{color:#606060;text-decoration:none}a:hover{text-decoration:underline}header#cabecalho img#icone{position:relative;left:120px;top:-210px;height:90px}header#cabecalho{border-bottom:1px #606060 solid;height:180px}header#cabecalho h1{font-family:FonteLogo,sans-serif;font-size:50pt;margin-top:10px;color:#1660ce;text-shadow:1px 1px 1px #1660ce;padding:0;margin-bottom:0}header#cabecalho h2{font-family:'Titillium Web',sans-serif;color:#1660ce;font-size:40pt;padding:0;margin-top:0}nav#menu{display:block}nav#menu ul{list-style:none;text-transform:uppercase;position:relative;top:-300px;left:200px}nav#menu li{display:inline-block;background-color:#83ecff;padding:12px;margin:2px;transition:background-color .7s}nav#menu li:hover{background-color:#2e1fb8}nav#menu h1{display:none}nav#menu a{color:#000;text-decoration:none;font-weight:700}nav#menu a:hover{color:#fff}section#corpo{display:block;width:1000px}header#cabecalho-artigo h1{font-family:'Fontelogo',sans-serif;font-size:30pt;color:#1660ce;margin-bottom:0;margin-top:0}header#cabecalho-artigo h2{font-size:25pt;color:#8daad6;margin:0}article#noticia-principal h3{font-size:20pt;color:#000;background-color:#e6e6e6;padding:5px 0;margin:10px 0}article#noticia-principal h4{font-size:20pt;color:#000;font-family:'Fontelogo',sans-serif;padding:5px 0;margin:10px 0 10px 40px}article#noticia-principal h1{font-family:'Fontelogo',sans-serif;font-size:30pt;color:#1660ce;margin-bottom:0;margin-top:0}article#noticia-principal p{font-size:20pt;color:#000;padding:5px 0;margin:10px 0}footer#rodape{clear:both;border-top:1px solid #606060}footer#rodape p{text-align:center}img.aguanomundo{height:4700px;margin-top:10px}img.chuveiro{height:950px;position:relative;}img.fecha{height:720px;position:relative}img.louca{height:660px;position:relative}img.maquina{height:900px;position:relative}img.lavar{height:540px;position:relative}img.varer{height:610px;position:relative}img.descarga{height:900px;position:relative}img.vaza{height:500px;position:relative}img.torneira{height:680px;position:relative}img.carro{height:670px;position:relative}img.ciclo{height:800px}img.esgoto{height:600px;margin-left:50px}img.toxico{height:510px;margin-left:50px}img.sedimentar{height:600px;margin-left:50px}img.biologica{height:699px;margin-left:50px}img.termica{height:456px;margin-left:50px}img.quimica{height:450px;margin-left:50px}
+
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+/* Estilizando as perguntas */
+form ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+form ol li {
+    margin-bottom: 15px;
+    font-size: 20pt;
+}
+
+/* Estilizando as opções de resposta */
+form input[type="radio"] {
+    margin-right: 1000px;
+    
+}
+
+/* Estilizando o botão de envio */
+form input[type="submit"] {
+    background-color: #4a18be;
+    color: #fff;
+    padding: 10px 20px;
+    border:none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+form p {
+    font-size: 25pt;
+}
+
+
+/* Estilizando o container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando a lista de perguntas */
+.question-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*
+
+
